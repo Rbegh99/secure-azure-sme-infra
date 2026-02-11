@@ -10,14 +10,18 @@ The goal is to simulate a small business cloud environment using proper network 
 ---
 
 ## Architecture Components
-- Resource Group with tagging strategy
+
+- Resource Group (with tagging strategy)
 - Virtual Network (10.0.0.0/16)
-- Frontend Subnet (10.0.1.0/24)
-- Backend Subnet (10.0.2.0/24)
+- Web Subnet (10.0.1.0/24)
+- App Subnet (10.0.2.0/24)
+- AzureBastionSubnet (10.0.3.0/27)
 - Network Security Groups (NSGs)
-- Azure Bastion (secure admin access)
-- Virtual Machine (no public inbound access)
+- Virtual Machines (no public inbound access)
+- Azure Bastion
 - Recovery Services Vault (backup policy)
+- Azure Monitor & Log Analytics
+- Network Watcher (diagnostics & troubleshooting)
 
 ---
 
