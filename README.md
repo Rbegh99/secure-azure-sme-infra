@@ -15,7 +15,7 @@ The goal is to simulate a small business cloud environment using proper network 
 - Virtual Network (10.0.0.0/16)
 - Web Subnet (10.0.1.0/24)
 - App Subnet (10.0.2.0/24)
-- AzureBastionSubnet (10.0.3.0/27)
+- AzureBastionSubnet (10.0.3.0/26)
 - Network Security Groups (NSGs)
 - Virtual Machines (no public inbound access)
 - Azure Bastion
