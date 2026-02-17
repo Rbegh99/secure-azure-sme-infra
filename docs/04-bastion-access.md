@@ -50,9 +50,24 @@ The connection stays entirely within Azure's private network.
 
 ---
 
+## Administrative Access Verification
+
+A successful SSH session was established through Azure Bastion.
+
+This confirms that:
+- The virtual machine has no public exposure
+- Administrative access is still possible
+- Secure management does not require opening inbound ports
+
+This demonstrates secure remote management using a platform-managed jump host.
+
+
 ## Result
 
 Both web and application servers remain private while still being manageable.
 
 The infrastructure is accessible to administrators but invisible to attackers.
+
+
+
 
