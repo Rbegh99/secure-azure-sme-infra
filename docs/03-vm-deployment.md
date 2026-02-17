@@ -42,8 +42,8 @@ Security is enforced at the network layer before firewall rules are evaluated.
 
 ## Traffic Flow
 
-Internet → vm-web → vm-app ✔  
-Internet → vm-app ✖ Blocked
+Internet → vm-web → vm-app   
+Internet → vm-app → Blocked
 
 ---
 
