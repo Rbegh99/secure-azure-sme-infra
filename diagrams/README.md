@@ -1,1 +1,3 @@
+diagrams/architecture.png
+
 
