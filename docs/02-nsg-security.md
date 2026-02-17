@@ -72,5 +72,5 @@ This prevents direct access to the backend from the internet and enforces a secu
 
 Internet → Web VM (HTTP)  
 Web subnet → App subnet (HTTP)  
-❌ Internet → App subnet (blocked)
+Internet → App subnet (blocked)
 
